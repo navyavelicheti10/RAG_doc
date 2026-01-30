@@ -2,5 +2,5 @@
 __pycache__/
 .venv/
 *.pyc
-faiss_index/
-uploads/
+faiss_indices/
+upload/

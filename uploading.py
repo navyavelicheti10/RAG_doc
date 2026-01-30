@@ -9,8 +9,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
 
 app = FastAPI()
-UPLOAD_DIR = "uploads"
-INDEX_DIR = "faiss_index"
+UPLOAD_DIR = "upload"
+INDEX_DIR = "faiss_indices"
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
